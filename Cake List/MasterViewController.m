@@ -31,6 +31,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     CakeCell *cell = (CakeCell*)[tableView dequeueReusableCellWithIdentifier:@"CakeCell"];
+    [cell.cakeImageView setImage:nil];
     
     NSDictionary *object = self.objects[indexPath.row];
     cell.titleLabel.text = object[@"title"];
