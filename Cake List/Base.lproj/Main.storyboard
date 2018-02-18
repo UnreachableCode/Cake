@@ -31,16 +31,16 @@
         <scene sceneID="VgW-fR-Quf">
             <objects>
                 <tableViewController title="Master" id="pGg-6v-bdr" customClass="MasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="450" sectionHeaderHeight="22" sectionFooterHeight="22" id="mLL-gJ-YKr">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="490" sectionHeaderHeight="22" sectionFooterHeight="22" id="mLL-gJ-YKr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CakeCell" rowHeight="450" id="B52-71-W6G" customClass="CakeCell">
-                                <rect key="frame" x="0.0" y="22" width="375" height="450"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CakeCell" rowHeight="490" id="B52-71-W6G" customClass="CakeCell">
+                                <rect key="frame" x="0.0" y="22" width="375" height="490"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B52-71-W6G" id="yGV-Jd-h9v">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="449.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="489.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cake Title Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLQ-Hv-eeT">
@@ -71,8 +71,8 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="2cJ-YH-PLb" firstAttribute="top" secondItem="yGV-Jd-h9v" secondAttribute="top" id="AFL-ut-7VB"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="XAL-IQ-xUk" secondAttribute="bottom" constant="43" id="SIx-BB-8Sb"/>
                                         <constraint firstAttribute="trailing" secondItem="2cJ-YH-PLb" secondAttribute="trailing" id="Swz-j3-sgB"/>
-                                        <constraint firstAttribute="bottom" secondItem="XAL-IQ-xUk" secondAttribute="bottom" constant="13.5" id="Zmc-sa-R2B"/>
                                         <constraint firstItem="XAL-IQ-xUk" firstAttribute="top" secondItem="pLQ-Hv-eeT" secondAttribute="bottom" constant="10" id="epA-Uu-MLV"/>
                                         <constraint firstItem="pLQ-Hv-eeT" firstAttribute="leading" secondItem="yGV-Jd-h9v" secondAttribute="leadingMargin" constant="18" id="guC-ud-cSi"/>
                                         <constraint firstItem="XAL-IQ-xUk" firstAttribute="leading" secondItem="yGV-Jd-h9v" secondAttribute="leadingMargin" constant="18" id="hwx-pP-Swb"/>
