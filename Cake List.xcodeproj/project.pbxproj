@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975A008C2039E2090071A1F1 /* CakeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 975A008B2039E2090071A1F1 /* CakeModel.m */; };
 		DBF17A171B0B648F004E6311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF17A161B0B648F004E6311 /* main.m */; };
 		DBF17A1A1B0B648F004E6311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF17A191B0B648F004E6311 /* AppDelegate.m */; };
 		DBF17A1D1B0B648F004E6311 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF17A1C1B0B648F004E6311 /* MasterViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		975A008B2039E2090071A1F1 /* CakeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CakeModel.m; sourceTree = "<group>"; };
+		975A008D2039E3D80071A1F1 /* CakeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CakeModel.h; sourceTree = "<group>"; };
 		DBF17A111B0B648F004E6311 /* Cake List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cake List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF17A151B0B648F004E6311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBF17A161B0B648F004E6311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		975A008A2039D22B0071A1F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				975A008D2039E3D80071A1F1 /* CakeModel.h */,
+				975A008B2039E2090071A1F1 /* CakeModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DBF17A081B0B648F004E6311 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +100,7 @@
 				DBF17A191B0B648F004E6311 /* AppDelegate.m */,
 				DBF17A401B0B8EE3004E6311 /* View Controllers */,
 				DBF17A411B0B8EED004E6311 /* Cells */,
+				975A008A2039D22B0071A1F1 /* Models */,
 				DBF17A211B0B648F004E6311 /* Main.storyboard */,
 				DBF17A241B0B648F004E6311 /* Images.xcassets */,
 				DBF17A261B0B648F004E6311 /* LaunchScreen.xib */,
@@ -243,6 +256,7 @@
 				DBF17A1A1B0B648F004E6311 /* AppDelegate.m in Sources */,
 				DBF17A3F1B0B8E16004E6311 /* CakeCell.m in Sources */,
 				DBF17A1D1B0B648F004E6311 /* MasterViewController.m in Sources */,
+				975A008C2039E2090071A1F1 /* CakeModel.m in Sources */,
 				DBF17A171B0B648F004E6311 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
